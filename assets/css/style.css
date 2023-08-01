@@ -203,7 +203,7 @@ a {
     text-transform: uppercase;
 }
 
-.categories a{
+.categories a {
     text-decoration: none;
 }
 
@@ -217,8 +217,79 @@ a {
     text-transform: uppercase;
 }
 
-.new{
+.new {
     padding-top: 90px;
+}
+
+.new .description {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.new h4 {
+    color: #000;
+    font-family: Poiret One;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    /* 96.154% */
+    letter-spacing: -1.04px;
+}
+
+.new .description p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 18px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    padding: 10px 20%;
+    font-weight: 300;
+}
+
+.new .description .price {
+    color: var(--secontdary-text-color);
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.new .small-gallery .item {
+    padding: 10px;
+}
+
+.especial {
+    padding-top: 90px;
+}
+
+.especial h4 {
+    color: #000;
+    font-family: Poiret One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.especial .especial-thumb {
+    max-height: 360px;
+}
+
+.especial .especial-thumb img {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+}
+.especial .especial-link-1{
+    background-color: #D7BBAE;
 }
 .image-box {
     text-align: left;
@@ -1131,6 +1202,10 @@ div#list-tab {
     .grid-blog {
         display: flex;
         flex-direction: row;
+    }
+
+    .new .description {
+        padding-left: 0px;
     }
 }
 
