@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universo - Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/flaticon.css">
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="row flex-row align-items-center w-100 justify-content-between">
+                <div class="col-xxl-1 col-md-1">
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid" alt="Casarino">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-start py-3">
+                        <div class="input-search input-group " style="max-width: 550px;">
+                            <input type="text" class="form-control rounded-end"
+                                placeholder="Buscar productos por nombre, código  o categoría">
+                            <button class="btn" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/ad.png" class="img-fluid px-5 d-none d-md-flex" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="header-actions">
+                        <div class="justify-content-end ms-auto navbar-nav">
+                            <ul class="nav-link flex-row d-none d-md-flex m-0">
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-phone"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Linea directa</p>
+                                                <h5 class="title">021 238 6600</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-profile"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Acceder</p>
+                                                <h5 class="title">Cuenta</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center ">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon bg-white">
+                                                <span class="cart">
+                                                    <img src="./assets/images/icons/cart.png" alt="Carrito">
+                                                </span>
+                                                <span class="badge">2</span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Gs 200.000</p>
+                                                <h5 class="title">Total</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="bg-universo">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse offcanvas offcanvas-start align-items-start" tabindex="-1"
+                    id="navbarMenu">
+                    <ul class="nav-menu offcanvas-body navbar-nav ml-auto align-items-center">
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img class="me-2" src="./assets/images/icons/menu-light.svg" alt="Desktop Menu Icon">
+                                Ver todas las categorias
+                            </a>
+                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                                <ul class="menu ps-0">
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-diamond"></span>
+                                            <span class="menu-title">Ofertas de hoy</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-cooking"></span>
+                                            <span class="menu-title">Cocina</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-armchair"></span>
+                                            <span class="menu-title">Muebles</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-smartphone-1"></span>
+                                            <span class="menu-title">Electronicos</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-bride-dress"></span>
+                                            <span class="menu-title">Ropas &amp; Accessorios</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-heart-beat"></span>
+                                            <span class="menu-title">Salud &amp; Belleza</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-volleyball"></span>
+                                            <span class="menu-title">Deportes</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-remote-control"></span>
+                                            <span class="menu-title">Juguetes &amp; Video Juegos</span>
+                                        </a>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electródomesticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Belleza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Audio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para los chicos</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="header-actions">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicio Técnico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Garantía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seguimiento de pedido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="shop-checkouts pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 m-auto">
+                        <div class="main-title text-center mb50">
+                            <h2 class="title">Solicitud de crédito</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <a href="" class="btn btn-solid-outline"><i class="fas fa-chevron-left"></i> Volver </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-xl-8">
+                        <div class="checkout_form style2">
+                            <div class="main-title py-4">
+                                <p>Ya es cliente de Universo?
+                                    <a href="#">Haga click aquí para acceder a su cuenta y aplicar sus beneficios</a>
+                                </p>
+                            </div>
+                            <div class="pasos-creditos">
+                                <a href="" class="creditos-btn">Paso 1</a>
+                                <a href="" class="creditos-btn">Paso 2</a>
+                                <a href="" class="creditos-btn active">Paso 3</a>
+                                <a href="" class="creditos-btn">Paso 4</a>
+                                <a href="" class="creditos-btn">Paso 5</a>
+
+                            </div>
+                            <h4 class="title pb-4">FIRMA DE DOCUMENTOS</h4>
+                            <div class="checkout_coupon ui_kit_button">
+                                <form class="form-caja" name="form" action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="form-group mb0">
+                                                <div class="pb-2">
+                                                    <p>¿Desea que le enviemos los documentos por Delivery, o prefiere ir
+                                                        a firmar en la Sucursal?</p>
+                                                </div>
+                                                <div class="ui_kit_checkbox">
+                                                    <label class="custom_checkbox">Enviar Documentos por Delivery
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="ui_kit_checkbox">
+                                                    <label class="custom_checkbox">Firmar Documentos en Sucursal
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <h4 class="title pt-4">ENVIAR DOCUMENTOS POR DELIVERY</h4>
+                                        <div class="form-group mb0">
+                                            <div class="pb-2">
+                                                <p>¿Es en @Dirección @Numeración?</p>
+                                            </div>
+                                            <div class="ui_kit_checkbox">
+                                                <label class="custom_checkbox">Sí
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="ui_kit_checkbox">
+                                                <label class="custom_checkbox">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="form-label">Ciudad</label>
+                                                <select class="form-select form-select-md me-3 form_control"
+                                                    name="ciudad" required>
+                                                    <option selected></option>
+                                                    <option value="">Amambay</option>
+                                                    <option value="">Asunción</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="form-label">Barrio</label>
+                                                <select class="form-select form-select-md me-3 form_control"
+                                                    name="barrio" required>
+                                                    <option selected></option>
+                                                    <option value="">Amambay</option>
+                                                    <option value="">Asunción</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="form-label">Dirección exacta de mi domicilio*</label>
+                                                <input class="form-control form_control" type="text" placeholder=""
+                                                    name="direccion">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="form-label">Númeracion de la residencia *</label>
+                                                <input class="form-control form_control" type="tel" placeholder=""
+                                                    name="numeracion">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="form-label">Ubique en el mapa su dirección * (Esto
+                                                    facilitará la entrega ágil de su producto a nuestros choferes de
+                                                    delivery)</label>
+                                                <div id="map-canvas" class="w-100" style="height: 350px;">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h4 class="title pt-4">FIRMA DE DOCUMENTOS EN SUCURSAL</h4>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <select class="form-select form-select-md me-3 form_control"
+                                                    name="barrio" required>
+                                                    <option selected>Seleccionar sucursal</option>
+                                                    <option value="">Amambay</option>
+                                                    <option value="">Asunción</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Fecha de retiro de pedido *</label>
+                                                <input class="form-control form_control" type="date" placeholder=""
+                                                    name="fecha">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <label class="form-label">Rango de horario que pasará *</label>
+                                                <select class="form-select form-select-md me-3 form_control"
+                                                    name="barrio" required>
+                                                    <option selected>Seleccionar horario</option>
+                                                    <option value="">Mañana</option>
+                                                    <option value="">Tarde</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 pb-5">
+                                            <a href="" class="btn btn-thm py-3 px-4 float-end ftw-600">Siguiente</a>
+                                            <a href="" class="btn btn-solid-outline py-3 px-4 float-end ftw-600 me-4">Anterior</a>
+                                        </div>
+
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 pb-5">
+                        <div class="order_sidebar_widget tu-orden">
+                            <h4 class="title text-left">Tu Órden</h4>
+                            <ul class="orden">
+                                <li class="item d-flex align-items-center justify-content-start pb-4">
+                                    <img src="./assets/images/producto/2.png" alt="Producto 1">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="ms-2 w-50">Apple MacBook Pro con Apple M1 Chip x 2 </p>
+                                        <span class="float-end ftw-600">6 x Gs. 403.000</span>
+                                    </div>
+                                </li>
+                                <li class="subtitle">
+                                    <p>Sub Total <span class="float-end totals">Gs. 9.300.000</span></p>
+                                </li>
+
+                                <li class="subtitle">
+                                    <p>Total <span class="float-end totals">Gs. 9.350.000</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+
+                        </ul>
+                        <div class="ui_kit_checkbox py-3">
+                            <label class="custom_checkbox lh-18 ftw-500 text-justify">Por el presente instrumento
+                                autorizo en forma expresa e inequívoca, para que por propia cuenta o a través de
+                                empresas especializadas de nuestro medio, puedan recabar información en plaza referente
+                                a mi situación patrimonial, solvencia económica, o el cumplimiento de mis obligaciones
+                                comerciales, como así también a la verificación, confirmación y certificación de los
+                                datos por mi proveídos, a fin de que puedan contar con los elementos de juicio y
+                                análisis necesarios para la concesión del crédito que me encuentro gestionando por este
+                                medio y los créditos que en adelante solicite, como así también a proporcionar esta
+                                información a terceros interesados, todo de acuerdo a los términos establecidos en la
+                                Ley 6534/20. Asimismo reconozco que se encuentra a mi disposición el número 0215699000
+                                para revocar este consentimiento.-
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col-md-12">
+                                <img src="./assets/images/credito/1.png" alt="Solicitud de credito"
+                                    class="img-fluid px-5 mx-auto">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="newsletter bg-universo">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="suscribirse mb30-md text-center">
+                            <div class="details">
+                                <h3 class="title">Suscribite y obtené 10% de descuento en tu próxima compra.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="suscrib">
+                            <form class="mail-universo">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control"
+                                            placeholder="Ingresar dirección de e-mail">
+                                        <button class="ms-sm-2 btn-thm" type="submit">Suscribirse</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-universo">
+                            <img src="./assets/images/logo-color.png" alt="" class="img-fluid pb-3">
+                            <div class="footer-icon-box d-flex mb-4">
+                                <div class="icon"><span class="flaticon-phone-call"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">021 238 6600</h5>
+                                    <p>Lunes-Viernes: 08am-19pm</p>
+                                    <p>Sábado: 08am-15pm</p>
+                                    <p>Domingo: Cerrado</p>
+                                </div>
+                            </div>
+                            <div class="footer-icon-box d-flex">
+                                <div class="icon"><span class="flaticon-email"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">Necesita soporte vía e-mail?</h5>
+                                    <a href="#">info@grupouniverso.com.py</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Informaciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Nuestras marcas</a></li>
+                                <li><a href="#">Sucursales</a></li>
+                                <li><a href="#">Promociones vigentes</a></li>
+                                <li><a href="#">Bocas de cobranzas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Soporte</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Servicio Técnico</a></li>
+                                <li><a href="#">Centro de ayuda</a></li>
+                                <li><a href="#">Garantía extendida</a></li>
+                                <li><a href="#">Financiamiento</a></li>
+                                <li><a href="#">Preguntas frecuentes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Terminos y condiciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Politicas del sitio</a></li>
+                                <li><a href="#">Politicas de entrega</a></li>
+                                <li><a href="#">Compra sin registro</a></li>
+                                <li><a href="#">Politicas de reembolso</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-list">
+                            <h4 class="title">Seguinos</h4>
+                            <div class="social-list">
+                                <ul class="p-0">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <img src="./assets/images/bancard.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright bg-light">
+            <div class="container">
+                <div class="row py-3">
+
+                    <p class="my-1 text-center">© 2023 Grupo Universo | Todos los derechos reservados - Legislación
+                        aplicable por el Ministerio de Industria y Comercio
+                        (ACRAIZ), Ley 4868/2013 y el Decreto 1165/2014</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD19cqU2rIzBHOPL_t8GhJJ9cmi-HNpULg&callback=initialize"></script>
+    <script>
+       /*  function initialize() {
+            var mapOptions = {
+                zoom: 16,
+                scrollwheel: false,
+                center: new google.maps.LatLng(-25.310629561270904, -57.592367993945814)
+            };
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+
+
+            var marker = new google.maps.Marker({
+                position: map.getCenter(),
+                animation: google.maps.Animation.BOUNCE,
+                //icon: 'img/map-marker.png',
+                map: map
+            });
+        } */
+
+    </script>
+
+    <script>
+        function initialize() {
+            const myLatlng = { lat: -25.363, lng: -57.592367993945814 };
+            const map = new google.maps.Map(document.getElementById("map-canvas"), {
+                zoom: 13,
+                center: myLatlng,
+            });
+            // Create the initial InfoWindow.
+            let infoWindow = new google.maps.InfoWindow({
+                content: "Selecciona tu ubicación en el mapa",
+                position: myLatlng,
+            });
+
+            infoWindow.open(map);
+            // Configure the click listener.
+            map.addListener("click", (mapsMouseEvent) => {
+                // Close the current InfoWindow.
+                infoWindow.close();
+                // Create a new InfoWindow.
+                infoWindow = new google.maps.InfoWindow({
+                    position: mapsMouseEvent.latLng,
+                });
+                infoWindow.setContent(
+                    JSON.stringify(mapsMouseEvent.latLng.toJSON(), null, 2),
+                );
+                console.log(mapsMouseEvent.latLng.toJSON())
+                infoWindow.open(map);
+            });
+        }
+
+        
+
+    </script>
+</body>
+
+</html>

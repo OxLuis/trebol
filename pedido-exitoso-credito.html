@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universo - Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/flaticon.css">
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="row flex-row align-items-center w-100 justify-content-between">
+                <div class="col-xxl-1 col-md-1">
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid" alt="Casarino">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-start py-3">
+                        <div class="input-search input-group " style="max-width: 550px;">
+                            <input type="text" class="form-control rounded-end"
+                                placeholder="Buscar productos por nombre, código  o categoría">
+                            <button class="btn" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/ad.png" class="img-fluid px-5 d-none d-md-flex" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="header-actions">
+                        <div class="justify-content-end ms-auto navbar-nav">
+                            <ul class="nav-link flex-row d-none d-md-flex m-0">
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-phone"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Linea directa</p>
+                                                <h5 class="title">021 238 6600</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-profile"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Acceder</p>
+                                                <h5 class="title">Cuenta</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center ">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon bg-white">
+                                                <span class="cart">
+                                                    <img src="./assets/images/icons/cart.png" alt="Carrito">
+                                                </span>
+                                                <span class="badge">2</span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Gs 200.000</p>
+                                                <h5 class="title">Total</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="bg-universo">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse offcanvas offcanvas-start align-items-start" tabindex="-1"
+                    id="navbarMenu">
+                    <ul class="nav-menu offcanvas-body navbar-nav ml-auto align-items-center">
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img class="me-2" src="./assets/images/icons/menu-light.svg" alt="Desktop Menu Icon">
+                                Ver todas las categorias
+                            </a>
+                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                                <ul class="menu ps-0">
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-diamond"></span>
+                                            <span class="menu-title">Ofertas de hoy</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-cooking"></span>
+                                            <span class="menu-title">Cocina</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-armchair"></span>
+                                            <span class="menu-title">Muebles</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-smartphone-1"></span>
+                                            <span class="menu-title">Electronicos</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-bride-dress"></span>
+                                            <span class="menu-title">Ropas &amp; Accessorios</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-heart-beat"></span>
+                                            <span class="menu-title">Salud &amp; Belleza</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-volleyball"></span>
+                                            <span class="menu-title">Deportes</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-remote-control"></span>
+                                            <span class="menu-title">Juguetes &amp; Video Juegos</span>
+                                        </a>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electródomesticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Belleza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Audio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para los chicos</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="header-actions">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicio Técnico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Garantía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seguimiento de pedido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="pedido-exitoso">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="orden-completa text-center">
+                            <div class="icon success">
+                                <span class="fa fa-check text-white"></span>
+                            </div>
+                            <h2 class="title"> ¡Su Solicitud ha sido recibida!</h2>
+                            <p>Tu orden ha sido recibida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-xl-8 offset-xl-2">
+                        <div class="orden-info py-4">
+                            <div class="order_list_raw text-center">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="list-inline-item">
+                                        <p>Número de pedido</p>
+                                        <h5>039422</h5>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <p>Fecha</p>
+                                        <h5>27/04/2023</h5>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <p>Cuota / Precio</p>
+                                        <h5>6 x Gs. 402.000</h5>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <p>Forma de pago</p>
+                                        <h5>A crédito</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="order_sidebar_widget tu-orden">
+                                <h4 class="title text-left">Detalle del pedido</h4>
+                                <ul class="orden">
+                                    <li class="item d-flex align-items-center justify-content-start pb-4">
+                                        <img src="./assets/images/producto/2.png" alt="Producto 1">
+                                        <div class="d-flex justify-content-between">
+                                            <p class="ms-2 w-50">Apple MacBook Pro con Apple M1 Chip x 2  </p>
+                                            <span class="float-end">6x Gs. 402.000</span>
+                                        </div>
+                                    </li>
+                                    <li class="subtitle">
+                                        <p>Total <span class="float-end totals">6x Gs. 402.000</span></p>
+                                    </li>
+                                </ul>
+                                <p class="text-muted text-center pt-5">*Le notificaremos una vez que su solicitud haya sido procesada por nuestro departamento de créditos.
+Mientras te invitamos a participar en nuestras promociones que tenemos para vos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="newsletter bg-universo">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="suscribirse mb30-md text-center">
+                            <div class="details">
+                                <h3 class="title">Suscribite y obtené 10% de descuento en tu próxima compra.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="suscrib">
+                            <form class="mail-universo">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control"
+                                            placeholder="Ingresar dirección de e-mail">
+                                        <button class="ms-sm-2 btn-thm" type="submit">Suscribirse</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-universo">
+                            <img src="./assets/images/logo-color.png" alt="" class="img-fluid pb-3">
+                            <div class="footer-icon-box d-flex mb-4">
+                                <div class="icon"><span class="flaticon-phone-call"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">021 238 6600</h5>
+                                    <p>Lunes-Viernes: 08am-19pm</p>
+                                    <p>Sábado: 08am-15pm</p>
+                                    <p>Domingo: Cerrado</p>
+                                </div>
+                            </div>
+                            <div class="footer-icon-box d-flex">
+                                <div class="icon"><span class="flaticon-email"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">Necesita soporte vía e-mail?</h5>
+                                    <a href="#">info@grupouniverso.com.py</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Informaciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Nuestras marcas</a></li>
+                                <li><a href="#">Sucursales</a></li>
+                                <li><a href="#">Promociones vigentes</a></li>
+                                <li><a href="#">Bocas de cobranzas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Soporte</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Servicio Técnico</a></li>
+                                <li><a href="#">Centro de ayuda</a></li>
+                                <li><a href="#">Garantía extendida</a></li>
+                                <li><a href="#">Financiamiento</a></li>
+                                <li><a href="#">Preguntas frecuentes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Terminos y condiciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Politicas del sitio</a></li>
+                                <li><a href="#">Politicas de entrega</a></li>
+                                <li><a href="#">Compra sin registro</a></li>
+                                <li><a href="#">Politicas de reembolso</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-list">
+                            <h4 class="title">Seguinos</h4>
+                            <div class="social-list">
+                                <ul class="p-0">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <img src="./assets/images/bancard.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <p class="my-1 text-center">© 2023 Grupo Universo | Todos los derechos reservados - Legislación
+                        aplicable por el Ministerio de Industria y Comercio
+                        (ACRAIZ), Ley 4868/2013 y el Decreto 1165/2014</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

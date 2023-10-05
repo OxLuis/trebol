@@ -6,23 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Trebol - Inicio</title>
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Fuentes-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&family=Roboto:wght@300;400;500;700&display=swap"
-		rel="stylesheet">
-
-
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!--CSS-->
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/flaticon.css">
 
 
 	<!--Custom CSS-->
@@ -33,606 +25,2475 @@
 	<!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-	<header>
-		<!--<div class="message-top">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="p-1 text-center">
-							<p class="message d-inline">
-								Horario diferenciados por Semana Santa
-								<a href="#"><u>Verificar nuestros horarios</u></a>
-							</p>
-							<div class="social float-end d-none d-sm-flex justify-content-center align-items-center">
-								<span>Seguinos</span>
-								<a href="#">
-									<i class="fa-brands fa-square-facebook"></i>
-								</a>
-								<a href="">
-									<i class="fa-brands fa-instagram"></i>
-								</a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>-->
-
-		<nav class="navbar navbar-expand-lg">
-			<div class="container d-flex justify-content-between">
-
-
-				<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="offcanvas"
+	<div class="navbar navbar-expand-lg">
+		<div class="container">
+			<div class="row flex-column flex-lg-row align-items-center w-100 justify-content-between">
+				<div class="col-auto branding">
+					<a class="navbar-toggler navbar-light" href="#offcanvas" data-bs-toggle="offcanvas"
 					data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-
-				<a class="navbar-brand me-0 d-flex align-items-center" href="#">
-					<img src="./assets/images/logo.png" alt="Casarino">
-					<p class="px-md-4">La marca del colchón</p>
-				</a>
-
-
-
-				<div class="header-actions">
-					<div class="d-flex justify-content-center py-4 w-50">
-						<div class="input-search input-group w-75">
-							<input type="text" class="form-control rounded-end"
-								placeholder="Buscar por nombre o código de producto">
-							<button class="btn" type="button">
-								<i class="fas fa-search"></i>
-							</button>
+					aria-label="Toggle navigation" role="button">
+						<span class="navbar-toggler-icon"></span>
+					</a>
+					<a class="navbar-brand me-0" href="./">
+						<img src="./assets/images/logo.png" class="img-fluid" alt="Trebol">
+						<p>LA MARCA DEL COLCHÓN</p>
+					</a>
+					<a class="d-flex flex-row align-content-center" href="#">
+						<div class="header-icon bg-white m-0 d-lg-none">
+							<span class="cart">
+								<img src="./assets/images/icons/cart.png" alt="Carrito">
+							</span>
+							<span class="badge count">0</span>
 						</div>
-					</div>
-					<ul class="navbar-nav">
-						<div class="d-none nav-link d-md-flex flex-row">
-							<li class="nav-item d-flex align-items-center ">
-								<a class="nav-link d-flex flex-row" href="#">
-									<img src="./assets/images/icons/heart.png" alt="Favoritos"
-										class="img-fluid d-inline">
-								</a>
-							</li>
-							<li class="nav-item d-flex align-items-center ">
-								<a class="nav-link d-flex flex-row" href="#">
-									<img src="./assets/images/icons/cart.png" alt="Carrito" class="img-fluid d-inline">
-								</a>
-							</li>
-							<li class="nav-item d-flex align-items-center ">
-								<a class="nav-link d-flex flex-row" href="#">
-									<img src="./assets/images/avatar.png" alt="Perfil"
-										class="img-fluid d-inline avatar">
-								</a>
-							</li>
-							<li class="nav-item d-flex align-items-center ">
-								<a class="nav-link d-flex flex-row" href="#">
-									<img src="./assets/images/icons/tel.png" alt="Telefono"
-										class="img-fluid d-inline avatar">
-									<p class="d-none d-md-block px-2 ">021 500 017</p>
-								</a>
-							</li>
-						</div>
-					</ul>
+					</a>
 				</div>
-
+				<div class="col">
+					<div class="d-block d-lg-flex justify-content-center py-3 align-items-center">
+						<form method="GET" action="https://prueba.universo.com.py/buscar" accept-charset="UTF-8" class="flex-1">
+							<div class="input-search input-group mx-lg-0 mx-auto" style="max-width: 550px;">
+								<input class="form-control rounded-end" placeholder="Buscar Productos" name="q" type="text">
+								<button class="btn" type="submit">
+									<i class="fas fa-search"></i>
+								</button>
+							</div>
+						</form>
+						<img src="./assets/images/ad.png" class="img-fluid px-5" alt="">
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="header-actions">
+						<ul class="navbar-nav">
+							<div class="d-none nav-link d-md-flex flex-row">
+								<li class="nav-item d-flex align-items-center ">
+									<a class="nav-link d-flex flex-row" href="#">
+										<img src="./assets/images/icons/heart.png" alt="Favoritos" class="img-fluid d-inline">
+									</a>
+								</li>
+								<li class="nav-item d-flex align-items-center ">
+									<a class="nav-link d-flex flex-row" href="#">
+										<img src="./assets/images/icons/cart.png" alt="Carrito" class="img-fluid d-inline">
+									</a>
+								</li>
+								<li class="nav-item d-flex align-items-center ">
+									<a class="nav-link d-flex flex-row" href="#">
+										<img src="./assets/images/icons/avatar.png" alt="Perfil" class="img-fluid d-inline avatar">
+									</a>
+								</li>
+								<li class="nav-item d-flex align-items-center ">
+									<a class="nav-link d-flex flex-row" href="#">
+										<img src="./assets/images/icons/tel.png" alt="Telefono" class="img-fluid d-inline avatar">
+										<p class="d-none d-md-block px-2 ">021 500 017</p>
+									</a>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			
 			</div>
+		</div>
+	</div>
+	<header>
 
-
-
-			</div>
-		</nav>
 		<nav class="navbar navbar-expand-lg">
-			<div class="container">
-
-				<div class="collapse navbar-collapse justify-content-center offcanvas offcanvas-start" tabindex="-1"
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse offcanvas offcanvas-start align-items-start" tabindex="-1"
 					id="navbarMenu">
-					<ul class="offcanvas-body navbar-nav ml-auto align-items-center">
+					<ul class="nav-menu offcanvas-body navbar-nav mx-auto align-items-center">
 						<li class="nav-item active">
 							<a class="nav-link" href="#">Inicio</a>
-							<i class="fa-solid fa-chevron-right"></i>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Promociones</a>
-							<i class="fa-solid fa-chevron-right"></i>
+							<a class="nav-link" href="#">Electródomesticos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Colchones</a>
-							<i class="fa-solid fa-chevron-right"></i>
+							<a class="nav-link" href="#">Belleza</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Sommiers</a>
-							<i class="fa-solid fa-chevron-right"></i>
+							<a class="nav-link" href="#">Tecnología</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Almohadas</a>
-							<i class="fa-solid fa-chevron-right"></i>
+							<a class="nav-link" href="#">Audio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">A medida</a>
-							<i class="fa-solid fa-chevron-right"></i>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Distribuidores</a>
-							<i class="fa-solid fa-chevron-right"></i>
+							<a class="nav-link" href="#">Para los chicos</a>
 						</li>
 
 					</ul>
 				</div>
+
+
+			
+
+			</div>
+
+
+
 			</div>
 		</nav>
-
 	</header>
 	<main>
-		<div class="container">
-			<div class="d-md-none d-sm-flex justify-content-center py-4 ">
-				<div class="input-search input-group " style="max-width: 450px;">
-					<input type="text" class="form-control rounded-end"
-						placeholder="Buscar productos por nombre, código  o categoría">
-					<button class="btn" type="button">
-						<i class="fas fa-search"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-		<div class="hero">
-			<div class="slick-carousel">
-				<div class="slide">
-					<img src="./assets/images/slides/1.png" alt="slide" class="img-fluid">
-
-				</div>
-
-
-			</div>
-		</div>
-		<div class="container">
-
-			<section class="categories">
-				<div class="text-center w-100">
-					<h4 class="py-4">NAVEGAR POR SECCIÓN</h4>
-					<div class="grid-images">
-						<div class="row">
-							<a href="#" class="item-section col-md-4 col-sm-12">
-								<img src="./assets/images/products/1.png" alt="Producto 1" class="img-fluid">
-								<p>Almohadas</p>
-							</a>
-							<a href="#" class="item-section col-md-4 col-sm-12">
-								<img src="./assets/images/products/2.png" alt="Producto 1" class="img-fluid">
-								<p>Colchones y sommiers</p>
-							</a>
-							<a href="#" class="item-section col-md-4 col-sm-12">
-								<img src="./assets/images/products/3.png" alt="Producto 1" class="img-fluid">
-								<p>Linea Infantil</p>
-							</a>
-
-						</div>
-					</div>
-
-				</div>
-			</section>
-
-			<section class="new">
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<div class="d-flex flex-row justify-content-center align-items-center">
-							<img src="./assets/images/home/grid/trebol-grid.png" alt="Logo trebol">
-							<h4 class="px-3">Lo Nuevo <br />en Trébol</h4>
-						</div>
-						<div class="description py-4">
-							<h5>ALMOHADAS PREMIUM</h5>
-							<p class="price">Gs. 250.000</p>
-							<p>Desde dormir de lado, boca arriba o hasta boca abajo, tiene sus necesidades únicas.
-								Encontrá el colchón perfecto para tu estilo de sueño y disfrutá de un descanso reparador
-							</p>
-							<a href="#" class="btn-cta-solid px-4 py-2">Explorar</a>
-						</div>
-
-						<div class="small-gallery row row-cols-2 row-cols-md-5 pt-2">
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/2.png" class="img-fluid">
-							</div>
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/3.png" class="img-fluid">
-							</div>
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/4.png" class="img-fluid">
-							</div>
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/5.png" class="img-fluid">
-							</div>
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/6.png" class="img-fluid">
-							</div>
-							<div class="item col-md-4 col-sm-4">
-								<img src="./assets/images/home/grid/7.png" class="img-fluid">
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-6 col-sm-12 text-center">
-						<img src="./assets/images/home/grid/1.png" alt="" class="img-fluid">
-					</div>
-				</div>
-
-			</section>
-
-			<section class="especial">
-				<div class="w-100">
-					<h4>Armá tu Espacio con Trébol</h4>
-				</div>
-				<div class="row pt-4">
-					<!-- Rectángulo -->
-					<div class="col-md-8">
-						<div style="background-color: #f0f0f0; max-height: 460px; overflow: hidden;">
-							<img src="./assets/images/home/special/1.png" alt="" class="w-100 img-fluid">
-						</div>
-					</div>
-					<!-- Cuadro -->
-					<div class="col-md-4 d-flex align-items-center justify-content-center">
-						<div class="especial-link-1">
-							<div class="d-flex flex-column align-items-center justify-content-center h-100">
-								<h4>TENDENCIAS</h4>
-								<a href="#">Explorar más ></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row pt-4">
-					<!-- Cuadro -->
-					<div class="col-md-4 d-flex align-items-center justify-content-center">
-						<div class="especial-link-2">
-							<div class="d-flex flex-column align-items-center justify-content-center h-100">
-								<h4>PARA LOS PEQUES</h4>
-								<a href="#">Explorar más ></a>
-							</div>
-						</div>
-					</div>
-					<!-- Rectángulo -->
-					<div class="col-md-8">
-						<div style="background-color: #f0f0f0; max-height: 460px; overflow: hidden;">
-							<img src="./assets/images/home/special/2.png" alt="" class="w-100 img-fluid">
-						</div>
-					</div>
-
-				</div>
-
-				<div class="row pt-4">
-					<!-- Rectángulo -->
-					<div class="col-md-8">
-						<div style="background-color: #f0f0f0; max-height: 460px; overflow: hidden;">
-							<img src="./assets/images/home/special/1.png" alt="" class="w-100 img-fluid">
-						</div>
-					</div>
-					<!-- Cuadro -->
-					<div class="col-md-4 d-flex align-items-center justify-content-center">
-						<div class="especial-link-3">
-							<div class="d-flex flex-column align-items-center justify-content-center h-100">
-								<h4>SALAS & ESTAR</h4>
-								<a href="#">Explorar más ></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="section-products">
-				<div class="text-center w-100 d-flex flex-column justify-content-center align-items-center">
-					<h4 class="description">OFERTAS DEL MES</h4>
-					<p class="title">Aprovechá los increíbles descuentos que Trébol
-						tiene para vos durante el mes de Julio</p>
-				</div>
-				<div class="grid-images  pt-5">
-					<div class="grid-container ">
-
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									<span class="discount">15% off</span>
-									<img src="./assets/images/home/ofertas/1.png" class="img-fluid">
-								</div>
-								<div class="part-2">
-									<div class="d-flex flex-column">
-										<h3 class="product-title">Alumitech</h3>
-										<p>
-											Camas & Sommiers
-										</p>
-									</div>
-									<div class="d-flex justify-content-between">
-										<h4 class="product-price">41.600 Gs</h4>
-										<h4 class="product-old-price">$45.000 Gs</h4>
-									</div>
-									<div class="add-cart d-flex justify-content-end pt-2">
-										<a href="#">
-											Agregar <img src="./assets/images/icons/cart.png" class="img-fluid">
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#" class="btn-cta-solid px-4 py-2">Ver más > </a>
-				</div>
-			</section>
-			<section class="fav-products">
-				<div class="product">
-					<div class="row">
-						<div class="col-md-6 col-sm-12">
-							<img src="./assets/images/home/12.png" alt="Slide 1" class="img-fluid p-4">
-						</div>
-						<div class="col-md-6 col-sm-12 py-5 px-5">
-							<h2>Mampostería</h2>
-							<p>Los trabajos de impermeabilización son realizados por personal altamente capacitado y
-								cuentan con servicio de garantía por escrito.</p>
-							<div class="price d-flex py-4">
-								<div class="d-flex">
-									<h3>45.000 Gs</h3>
-									<h3 class="old-price">51.500 Gs</h3>
-								</div>
-
-								<a href="#" class="btn-cta-solid px-4 py-2">Comprar</a>
-							</div>
-							<div class="valido">
-								<p class="">VÁLIDO HASTA</p>
-								<h4 class="countdown">08:12:44</h4>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="experience">
-				<div class="company" style="background: url(./assets/images/home/13.png)">
-					<div class="row h-100">
-						<div class="col-md-6 col-sm-12 description">
-							<div class="col-md-8 col-sm-12">
-								<h2>Somos una empresa con tradición familiar, que busca la calidad</h2>
-								<div class="py-4">
-									<a href="#" class="btn-cta ">Leer más sobre nosotros ></a>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-12 py-3">
-								<p>
-									Fundada en el año XX, ha consolidado su trayectoria meditante servicios
-									garantizados y productos de la mejor calidad.
-									<br />
-									<br />
-									Nuestra meta es el confort. El confort sostenible, a largo plazo y en todo lugar
-								</p>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="calification">
+		<div class="container-fluid mt-20">
+			<div class="hero">
 				<div class="slick-carousel">
-					<div class="product">
+					<div class="slide">
 						<div class="row">
-							<div class="col-md-6 col-sm-12">
-								<img src="./assets/images/home/12.png" alt="Slide 1" class="img-fluid p-4">
+							<div class="col-xl-12">
+								<img src="./assets/images/home/slide/1.png" class="w-100">
 							</div>
-							<div class="col-md-6 col-sm-12 py-5 px-5">
-								<p>Comentarios de clientes</p>
-								<h2>Con Trebol siempre encontramos solución a nuestras necesidades específicas.</h2>
-								<div class="stars py-4">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<div class="d-flex">
-									<div class="quote"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="22"
-											viewBox="0 0 27 22" fill="none">
-											<path
-												d="M14 14.9688C14 13.3438 14.3125 11.75 14.9375 10.1875C15.625 8.5625 16.4375 7.21875 17.375 6.15625C18.3125 5.09375 19.2812 4.15625 20.2812 3.34375C21.2812 2.46875 22.125 1.84375 22.8125 1.46875C23.5625 1.03125 24.0312 0.8125 24.2188 0.8125C25.0312 0.8125 25.6562 1.375 26.0938 2.5C24.4062 3.5 23 4.6875 21.875 6.0625C20.8125 7.375 20.125 8.4375 19.8125 9.25C19.5625 10 19.4375 10.5938 19.4375 11.0312C19.4375 11.8438 20.0625 12.9688 21.3125 14.4062C22.625 15.7812 23.2812 16.9062 23.2812 17.7812C23.2812 18.9062 22.6562 19.875 21.4062 20.6875C20.2188 21.4375 18.8438 21.8125 17.2812 21.8125C16.5938 21.8125 15.9375 21.7188 15.3125 21.5312C14.4375 20.2812 14 18.0938 14 14.9688ZM0.5 14.9688C0.5 13.3438 0.8125 11.75 1.4375 10.1875C2.125 8.5625 2.9375 7.21875 3.875 6.15625C4.8125 5.09375 5.78125 4.15625 6.78125 3.34375C7.84375 2.46875 8.71875 1.84375 9.40625 1.46875C10.1562 1.03125 10.625 0.8125 10.8125 0.8125C11.5625 0.8125 12.1562 1.375 12.5938 2.5C10.9062 3.5 9.53125 4.6875 8.46875 6.0625C7.40625 7.375 6.71875 8.4375 6.40625 9.25C6.15625 10 6.03125 10.5938 6.03125 11.0312C6.03125 11.8438 6.65625 12.9688 7.90625 14.4062C9.21875 15.7812 9.875 16.9062 9.875 17.7812C9.875 18.9062 9.25 19.875 8 20.6875C6.75 21.4375 5.34375 21.8125 3.78125 21.8125C3.21875 21.8125 2.59375 21.7188 1.90625 21.5312C0.96875 20.1562 0.5 17.9688 0.5 14.9688Z"
-												fill="white" />
-										</svg></div>
-									<p class="pt-4">Gracias a su equipo de expertos hemos encontrado la mejor alternativa para nuestros techos, ahorrándonos bastante en el proceso del asesoramiento recibido por parte de ellos.</p>
-								</div>
+							
+						</div>
 
+					</div>
+
+				</div>
+			</div>
+
+			<section class="ofertas pt-4">
+				<div class="container">
+					<div class="promociones-online">
+						<div class="row">
+							<div class="col-md-10 col-lg-7 col-xl-6 col-xxl-5 m-auto">
+								<div
+									class="title text-center d-block d-md-flex justify-content-center bg-white mt-50 mt0-sm">
+									<h2 class="">Promociones Online</h2>
+									<div class="deal_countdown">
+										<ul class="contador home7_style bgc-thm ml0-sm" id="timer">
+											<li class="list-inline-item me-2 days">10</li>
+											<li class="list-inline-item me-2"><span class="title"> :</span></li>
+											<li class="list-inline-item me-2 hours">05</li>
+											<li class="list-inline-item me-2"><span class="title"> :</span></li>
+											<li class="list-inline-item me-2 minutes">02</li>
+											<li class="list-inline-item me-2"><span class="title"> :</span></li>
+											<li class="list-inline-item me-2 seconds">32</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<div class="pb-5">
+									<div class="slick-promos d-flex flex-row justify-content-center">
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/1.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/2.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/3.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/4.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/5.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="slide item">
+											<div class="shop-item">
+												<div class="thumb pb-3">
+													<img src="./assets/images/home/ofertas/5.png" class="img-fluid"
+														alt="Articulo 1">
+													<div class="thumb-info">
+														<ul class="mb0">
+															<li>
+																<a href="#"><span class="flaticon-heart"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-show"></span></a>
+															</li>
+															<li>
+																<a href="#"><span class="flaticon-graph"></span></a>
+															</li>
+														</ul>
+													</div>
+													<div class="buy-btn d-grid">
+														<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+													</div>
+												</div>
+												<div class="info">
+													<p>SONY</p>
+													<a href="#" class="title">Camara Sony</a>
+													<!--<div class="review d-flex">
+														<ul class="p-0 me-1">
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+															<li class="list-inline-item">
+																<a href="#"><i class="fas fa-star"></i></a>
+															</li>
+														</ul>
+														<div class="reviews"><a href="#" class="d-none d-md-block">3,014
+																reviews</a></div>
+													</div>-->
+												</div>
+												<div class="price">
+													<div class="cuotas pb-3">
+														<p>Cuotas de</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div class="ms-1">
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart-blue.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+													<div class="contado">
+														<p>Precio contado</p>
+														<div class="precio">
+															<div>18 x Gs. 625.000</div>
+															<div>
+																<a href="">Agregar <img
+																		src="./assets/images/icons/cart.png"
+																		alt="Cargar en el carrito"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<section class="destacado">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="title col-xl-12 col-md-12 ">
+							<h2 class="text-center ">Destacado de la semana</h2>
+						</div>
+						<div class="slick-products d-flex flex-row">
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/1.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/2.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/3.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/4.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/5.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/6.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide col item">
+								<div class="shop-item">
+									<div class="thumb pb-3">
+										<img src="./assets/images/home/products/7.png" class="img-fluid"
+											alt="Articulo 1">
+										<div class="thumb-info">
+											<ul class="mb0">
+												<li>
+													<a href="#"><span class="flaticon-heart"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-show"></span></a>
+												</li>
+												<li>
+													<a href="#"><span class="flaticon-graph"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="buy-btn d-grid">
+											<a href="#" class="btn btn-thm1">Agregar a carrito</a>
+										</div>
+									</div>
+									<div class="info">
+										<p>SONY</p>
+										<a href="#" class="title">Camara Sony</a>
+										<!--<div class="review d-flex">
+											<ul class="p-0 me-1">
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+												<li class="list-inline-item">
+													<a href="#"><i class="fas fa-star"></i></a>
+												</li>
+											</ul>
+											<div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+											</div>
+										</div>-->
+									</div>
+									<div class="price">
+										<div class="cuotas pb-3">
+											<p>Cuotas de</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div class="ms-1">
+													<a href="">Agregar <img src="./assets/images/icons/cart-blue.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+										<div class="contado">
+											<p>Precio contado</p>
+											<div class="precio">
+												<div>18 x Gs. 625.000</div>
+												<div>
+													<a href="">Agregar <img src="./assets/images/icons/cart.png"
+															alt="Cargar en el carrito"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="products-right">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-md-4">
+							<img src="./assets/images/home/ad1.png" class="img-fluid" alt="Publicidad 1">
+						</div>
+						<div class="col-xl-8 col-md-8">
+							<div class="d-block d-md-flex justify-content-end">
+								<div class="products-tab style2">
+									<div class="nav nav-tabs mb30" role="tablist">
+										<button class="nav-link active" id="nav-celulares-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-celulares" role="tab" aria-controls="nav-celulares"
+											aria-selected="true">Celulares</button>
+										<button class="nav-link" id="nav-lavarropa-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-lavarropa" role="tab" aria-controls="nav-lavarropa"
+											aria-selected="false">Lavarropas</button>
+										<button class="nav-link" id="nav-tvs-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-tvs" role="tab" aria-controls="nav-tvs"
+											aria-selected="false">TV's</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="popular_listing_sliders row ui_kit_tab style2">
+										<!-- Tab panes -->
+										<div class="tab-content col-lg-12" id="nav-tabContent2">
+											<div class="tab-pane fade active show" id="nav-celulares" role="tabpanel"
+												aria-labelledby="nav-celulares-tab">
+												<div class="row">
+
+
+													<div class="row row-cols-2 row-cols-md-3">
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/1.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/2.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/3.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/4.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/5.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/6.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
 
 
 
+
+
+												</div>
+											</div>
+											<div class="tab-pane fade" id="nav-lavarropa" role="tabpanel"
+												aria-labelledby="nav-lavarropa-tab">
+												<div class="row">
+													2
+												</div>
+											</div>
+											<div class="tab-pane fade" id="nav-tvs" role="tabpanel"
+												aria-labelledby="nav-tvs-tab">
+												<div class="row">
+													3
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="products-left">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-xl-8 col-md-8">
+							<div class="d-block d-md-flex justify-content-start">
+								<div class="products-tab style2">
+									<div class="nav nav-tabs mb30" role="tablist">
+										<button class="nav-link active" id="nav-licuadora-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-licuadora" role="tab" aria-controls="nav-licuadora"
+											aria-selected="true">Licuadoras</button>
+										<button class="nav-link" id="nav-lavarropa-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-lavarropa" role="tab" aria-controls="nav-lavarropa"
+											aria-selected="false">Lavarropas</button>
+										<button class="nav-link" id="nav-tvs-tab" data-bs-toggle="tab"
+											data-bs-target="#nav-tvs" role="tab" aria-controls="nav-tvs"
+											aria-selected="false">TV's</button>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="popular_listing_sliders row ui_kit_tab style2">
+										<!-- Tab panes -->
+										<div class="tab-content col-lg-12" id="nav-tabContent2">
+											<div class="tab-pane fade active show" id="nav-licuadora" role="tabpanel"
+												aria-labelledby="nav-licuadora-tab">
+												<div class="row">
+
+
+													<div class="row row-cols-2 row-cols-md-3">
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/7.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/8.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/9.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/10.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/11.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col item">
+															<div class="shop-item">
+																<div class="thumb pb-3">
+																	<img src="./assets/images/home/products/12.png"
+																		class="img-fluid" alt="Articulo 1">
+																	<div class="thumb-info">
+																		<ul class="mb0">
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-heart"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-show"></span></a>
+																			</li>
+																			<li>
+																				<a href="#"><span
+																						class="flaticon-graph"></span></a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="buy-btn d-grid">
+																		<a href="#" class="btn btn-thm1">Agregar a
+																			carrito</a>
+																	</div>
+																</div>
+																<div class="info">
+																	<p>SONY</p>
+																	<a href="#" class="title">Camara Sony</a>
+																	<div class="review d-flex">
+																		<ul class="p-0 me-1">
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																			<li class="list-inline-item">
+																				<a href="#"><i
+																						class="fas fa-star"></i></a>
+																			</li>
+																		</ul>
+																		<div class="reviews"><a href="#">3,014
+																				reviews</a></div>
+																	</div>
+																</div>
+																<div class="price">
+																	<div class="cuotas pb-3">
+																		<p>Cuotas de</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div class="ms-1">
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart-blue.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="contado">
+																		<p>Precio contado</p>
+																		<div class="precio">
+																			<div>18 x Gs. 625.000</div>
+																			<div>
+																				<a href="">Agregar <img
+																						src="./assets/images/icons/cart.png"
+																						alt="Cargar en el carrito"></a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+
+
+
+
+												</div>
+											</div>
+											<div class="tab-pane fade" id="nav-lavarropa" role="tabpanel"
+												aria-labelledby="nav-lavarropa-tab">
+												<div class="row">
+													2
+												</div>
+											</div>
+											<div class="tab-pane fade" id="nav-tvs" role="tabpanel"
+												aria-labelledby="nav-tvs-tab">
+												<div class="row">
+													3
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-4">
+							<img src="./assets/images/home/ad1-2.png" class="img-fluid" alt="Publicidad 2">
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="brands">
+				<div class="container">
+					<div class="row">
+						<div class="head col-md-12 d-flex justify-content-between align-items-center">
+							<h2>Nuestras Marcas</h2>
+							<a href="#">Ver más</a>
+						</div>
+					</div>
+					<div class="slick-brands d-flex flex-row align-items-center">
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/1.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/2.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/3.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/4.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/5.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/6.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/1.png" alt="" class="img-fluid">
+						</div>
+						<div class="brand-item col-md-2">
+							<img src="./assets/images/home/marcas/2.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+
+
+
+			<section class="blog">
+				<div class="container">
+					<div class="row">
+						<div class="head col-md-12 d-flex justify-content-between align-items-center">
+							<h2>Novedades en Universo</h2>
+							<a href="#">Ver más</a>
+						</div>
+					</div>
+
+					<div class="grid-blog">
+						<div class="row justify-content-center pt-4">
+							<div class="blog-item col-md-4 col-sm-12">
+								<div class="card border-0">
+									<img src="./assets/images/home/blog/1.png" class="card-img-top" alt="Blog 1">
+									<div class="card-body p-2">
+										<p class="card-text">Lanzamientos</p>
+										<h4>Lanzamiento de pagina web Grupo Universo</h4>
+										<p>Setiembre 21, 2023</p>
+									</div>
+									<div class="p-2 d-flex justify-content-start">
+										<a href="#" class="btn-blog">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="blog-item col-md-4 col-sm-12">
+								<div class="card border-0">
+									<img src="./assets/images/home/blog/2.png" class="card-img-top" alt="Blog 1">
+									<div class="card-body p-2">
+										<p class="card-text">Lanzamientos</p>
+										<h4>Lanzamiento de pagina web Grupo Universo</h4>
+										<p>Setiembre 21, 2023</p>
+									</div>
+									<div class="p-2 d-flex justify-content-start">
+										<a href="#" class="btn-blog">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="blog-item col-md-4 col-sm-12">
+								<div class="card border-0">
+									<img src="./assets/images/home/blog/3.png" class="card-img-top" alt="Blog 1">
+									<div class="card-body p-2">
+										<p class="card-text">Lanzamientos</p>
+										<h4>Lanzamiento de pagina web Grupo Universo</h4>
+										<p>Setiembre 21, 2023</p>
+									</div>
+									<div class="p-2 d-flex justify-content-start">
+										<a href="#" class="btn-blog">Leer más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="info-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-lg-3">
+							<div class="icon-box about_style text-center">
+								<div class="icono">
+									<span class="flaticon-fast-delivery"></span>
+								</div>
+								<div class="details">
+									<h4 class="title">Delivery Gratis Asunción</h4>
+									<p class="desc">Para órdenes mayores a Gs. 300.000 </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="icon-box about_style text-center">
+								<div class="icono">
+									<span class="flaticon-shield"></span>
+								</div>
+								<div class="details">
+									<h4 class="title">Compra con Garantía</h4>
+									<p class="desc">Productos con 60 días de garantía</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="icon-box about_style text-center">
+								<div class="icono">
+									<span class="flaticon-headphones"></span>
+								</div>
+								<div class="details">
+									<h4 class="title">Soporte Permanente</h4>
+									<p class="desc">7 días de la semana de 8 a 20hs</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="icon-box about_style text-center">
+								<div class="icono">
+									<span class="flaticon-credit-card"></span>
+								</div>
+								<div class="details">
+									<h4 class="title">Pago Financiado</h4>
+									<p class="desc">Solicitá tu crédito y llevá lo que quieras</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 		</div>
+
+
+
+
 	</main>
 	<footer>
+		<div class="newsletter bg-universo">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="suscribirse mb30-md text-center">
+							<div class="details">
+								<h3 class="title">Suscribite y obtené 10% de descuento en tu próxima compra.</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 offset-lg-3">
+						<div class="suscrib">
+							<form class="mail-universo">
+								<div class="row align-items-center">
+									<div class="col-auto">
+										<input type="email" class="form-control"
+											placeholder="Ingresar dirección de e-mail">
+										<button class="ms-sm-2 btn-thm" type="submit">Suscribirse</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="footer">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-3 brand py-3">
-						<img src="./assets/images/logo.png" alt="Casarino">
-						<p class="pt-4">Expertos en aislaciones</p>
-						<p class="pt-4">En Colchones Trébol creemos que cada cuerpo tiene diferentes necesidades, es por eso que diseñamos con cuidado cada tipo de espuma y cada estructura de resorte en nuestros modelos.</p>
-						<a href="contacto.html" class="pt-3">Escribinos ›</a>
+				<div class="row pt-5">
+					<div class="col-sm-6 col-md-5 col-lg-3 col-xl-3">
+						<div class="footer-universo">
+							<img src="./assets/images/logo-color.png" alt="" class="img-fluid pb-3">
+							<div class="footer-icon-box d-flex mb-4">
+								<div class="icon"><span class="flaticon-phone-call"></span></div>
+								<div class="details ms-4">
+									<h5 class="title">021 238 6600</h5>
+									<p>Lunes-Viernes: 08am-19pm</p>
+									<p>Sábado: 08am-15pm</p>
+									<p>Domingo: Cerrado</p>
+								</div>
+							</div>
+							<div class="footer-icon-box d-flex">
+								<div class="icon"><span class="flaticon-email"></span></div>
+								<div class="details ms-4">
+									<h5 class="title">Necesita soporte vía e-mail?</h5>
+									<a href="#">info@grupouniverso.com.py</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-2 py-3">
-						<h5>Categoría</h5>
-						<ul class="list-unstyled">
-							<li><a href="#">Ciprés Top</a></li>
-							<li><a href="#">Fresno</a></li>
-							<li><a href="#">Avellano</a></li>
-							<li><a href="#">Repens Infantil</a></li>
-							<li><a href="#">Manzano</a></li>
-							<li><a href="#">Roble</a></li>
-							<li><a href="#">Clásica</a></li>
-							<li><a href="#" class="bold">Ver todos > </a></li>
-						</ul>
+					<div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+						<div class="footer-list">
+							<h4>Informaciones</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Nosotros</a></li>
+								<li><a href="#">Nuestras marcas</a></li>
+								<li><a href="#">Sucursales</a></li>
+								<li><a href="#">Promociones vigentes</a></li>
+								<li><a href="#">Bocas de cobranzas</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-2 py-3">
-						<h5>La Empresa</h5>
-						<ul class="list-unstyled">
-							<li><a href="#">Sobre nosotros</a></li>
-							<li><a href="#">Productos a medida</a></li>
-							<li><a href="#">Distribuidores</a></li>
-							<li><a href="#">Como comprar en el sitio?</a></li>
-							<li class="pt-5"><a href="#" class="bold">Terminos y condiciones</a></li>
-							<li><a href="#" class="bold">Politicas de entrega</a></li>
-						</ul>
+					<div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+						<div class="footer-list">
+							<h4>Soporte</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Servicio Técnico</a></li>
+								<li><a href="#">Centro de ayuda</a></li>
+								<li><a href="#">Garantía extendida</a></li>
+								<li><a href="#">Financiamiento</a></li>
+								<li><a href="#">Preguntas frecuentes</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-2 py-3">
-						<h5>Contactos</h5>
-						<ul class="list-unstyled">
-							<li><a href="#">Telefono: +(595) 21 500 617</a></li>
-							<li><a href="#">Email: info@easaic.com.p</a></li>
-							<li><a href="#">Casa Central: Rivarola Matto c/ Emilio Pastor - Km 5| Asunción</a></li>
-							<li><a href="#">Sucursal: Avda. Defensores del Chaco c/ Virgen de Caacupé </a></li>
-							<li><a href="#">Villa Elisa Teléfono: 338 3899</a></li>
-						</ul>
+					<div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+						<div class="footer-list">
+							<h4>Terminos y condiciones</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Politicas del sitio</a></li>
+								<li><a href="#">Politicas de entrega</a></li>
+								<li><a href="#">Compra sin registro</a></li>
+								<li><a href="#">Politicas de reembolso</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-md-3 py-3">
-						<h5>Nuestras Redes</h5>
-						<ul class="list-inline">
-							<li class="list-inline-item socials">
-								<a href="#"><i class="fab fa-facebook"></i></a>
-							</li>
-							<li class="list-inline-item">
-								<a href="#"><i class="fab fa-instagram"></i></a>
-							</li>
-						</ul>
+					<div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+						<div class="footer-list">
+							<h4 class="title">Seguinos</h4>
+							<div class="social-list">
+								<ul class="p-0">
+									<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+								<img src="./assets/images/bancard.png" class="img-fluid" alt="">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -640,18 +2501,10 @@
 		<div class="copyright bg-light">
 			<div class="container">
 				<div class="row py-3">
-					<div class="col-md-8 col-sm-12 d-flex align-items-center">
-						<img src="./assets/images/kumanda.png" alt="Kumandá Soluciones Tecnológicas" class="img-fluid">
-						<p class="mx-2">Copyright © 2023 <strong>Kumandá Soluciones Tecnológicas</strong> | Sitio
-							E-commerce</p>
 
-					</div>
-					<div class="col-md-4 col-sm-12 align-items-center text-center">
-						<img src="./assets/images/payment.png" alt="Medios de pagos" class="img-fluid">
-					</div>
-					<p class="my-1 text-center">Legislación aplicable por el Ministerio de Industria y Comercio
-						(ACRAIZ), Ley
-						4868/2013 y el Decreto 1165/2014</p>
+					<p class="my-1 text-center">© 2023 Grupo Universo | Todos los derechos reservados - Legislación
+						aplicable por el Ministerio de Industria y Comercio
+						(ACRAIZ), Ley 4868/2013 y el Decreto 1165/2014</p>
 				</div>
 
 			</div>

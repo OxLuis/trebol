@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Universo - Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/flaticon.css">
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="row flex-row align-items-center w-100 justify-content-between">
+                <div class="col-xxl-1 col-md-1">
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand me-0" href="#">
+                        <img src="./assets/images/logo.png" class="img-fluid" alt="Casarino">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-start py-3">
+                        <div class="input-search input-group " style="max-width: 550px;">
+                            <input type="text" class="form-control rounded-end"
+                                placeholder="Buscar productos por nombre, código  o categoría">
+                            <button class="btn" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/ad.png" class="img-fluid px-5 d-none d-md-flex" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="header-actions">
+                        <div class="justify-content-end ms-auto navbar-nav">
+                            <ul class="nav-link flex-row d-none d-md-flex m-0">
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-phone"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Linea directa</p>
+                                                <h5 class="title">021 238 6600</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center pe-2">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon">
+                                                <span class="flaticon-profile"></span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Acceder</p>
+                                                <h5 class="title">Cuenta</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-flex align-items-center ">
+                                    <a class="nav-link d-flex flex-row align-content-center" href="#">
+                                        <div class="d-block d-md-flex">
+                                            <div class="header-icon bg-white">
+                                                <span class="cart">
+                                                    <img src="./assets/images/icons/cart.png" alt="Carrito">
+                                                </span>
+                                                <span class="badge">2</span>
+                                            </div>
+                                            <div class="details">
+                                                <p class="subtitle">Gs 200.000</p>
+                                                <h5 class="title">Total</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="bg-universo">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse offcanvas offcanvas-start align-items-start" tabindex="-1"
+                    id="navbarMenu">
+                    <ul class="nav-menu offcanvas-body navbar-nav ml-auto align-items-center">
+                        <li class="nav-item dropdown mega-dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img class="me-2" src="./assets/images/icons/menu-light.svg" alt="Desktop Menu Icon">
+                                Ver todas las categorias
+                            </a>
+                            <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+                                <ul class="menu ps-0">
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-diamond"></span>
+                                            <span class="menu-title">Ofertas de hoy</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-cooking"></span>
+                                            <span class="menu-title">Cocina</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-armchair"></span>
+                                            <span class="menu-title">Muebles</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-smartphone-1"></span>
+                                            <span class="menu-title">Electronicos</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-bride-dress"></span>
+                                            <span class="menu-title">Ropas &amp; Accessorios</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-heart-beat"></span>
+                                            <span class="menu-title">Salud &amp; Belleza</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-volleyball"></span>
+                                            <span class="menu-title">Deportes</span>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown" href="#">
+                                            <span class="menu-icn flaticon-remote-control"></span>
+                                            <span class="menu-title">Juguetes &amp; Video Juegos</span>
+                                        </a>
+
+                                    </li>
+                                 
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electródomesticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Belleza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Audio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para los chicos</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="header-actions">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicio Técnico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Garantía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seguimiento de pedido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="category-breadcrumb ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="breadcrumb-content">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                                <li class="breadcrumb-item"><a href="#">Tecnologia</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="#">Computadoras</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mt-30">
+            <div class="row wrap">
+                <div class="col-xl-7">
+                    <div class="column">
+                        <div class="shop_single_natabmenu">
+                            <div class="d-block d-sm-flex align-items-start">
+                                <div class="nav flex-column nav-pills me-0 me-md-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link" id="v-image1" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-image1" type="button" role="tab"
+                                        aria-controls="v-pills-image1" aria-selected="true">
+                                        <img src="./assets/images/producto/2.png" alt="">
+                                    </button>
+                                    <button class="nav-link" id="v-image2" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-image2" type="button" role="tab"
+                                        aria-controls="v-pills-image2" aria-selected="false">
+                                        <img src="./assets/images/producto/3.png" alt="">
+                                    </button>
+                                    <button class="nav-link active" id="v-image3" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-image3" type="button" role="tab"
+                                        aria-controls="v-pills-image3" aria-selected="false">
+                                        <img src="./assets/images/producto/4.png" alt="">
+                                    </button>
+                                </div>
+                                <div class="tab-content m-auto" id="v-pills-tabContent">
+                                    <div class="tab-pane fade" id="v-pills-image1" role="tabpanel"
+                                        aria-labelledby="v-image1">
+                                        <div class="shop_single_navmenu_content justify-content-center">
+                                            <a class="product_popup popup-img" href="./assets/images/producto/1.png">
+                                                <span class="flaticon-full-screen"></span>
+                                            </a>
+                                            <div class="zoomimg_wrapper m-auto">
+                                                <img class="zoom-img" id="zoom_01" src="./assets/images/producto/1.png"
+                                                    data-zoom-image="./assets/images/producto/1.png" width="410"
+                                                    alt="Shop Single Image" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-image2" role="tabpanel"
+                                        aria-labelledby="v-image2">
+                                        <div class="shop_single_navmenu_content justify-content-center">
+                                            <a class="product_popup popup-img"
+                                                href="./assets/images/producto/1.png"><span
+                                                    class="flaticon-full-screen"></span></a>
+                                            <div class="zoomimg_wrapper m-auto">
+                                                <img class="zoom-img" id="zoom_02" src="./assets/images/producto/1.png"
+                                                    data-zoom-image="./assets/images/producto/1.png" width="410"
+                                                    alt="Shop Single Image" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="v-pills-image3" role="tabpanel"
+                                        aria-labelledby="v-image3">
+                                        <div class="shop_single_navmenu_content justify-content-center">
+                                            <a class="product_popup popup-img"
+                                                href="./assets/images/producto/1.png"><span
+                                                    class="flaticon-full-screen"></span></a>
+                                            <div class="zoomimg_wrapper m-auto">
+                                                <img class="zoom-img" id="zoom_03" src="./assets/images/producto/1.png"
+                                                    data-zoom-image="./assets/images/producto/1.png" width="410"
+                                                    alt="Shop Single Image" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="shop_single_product_details ps-0 ps-xl-4 mt-4 mt-xl-0">
+                        <h4 class="title mb15">Apple MacBook Pro 16" (2021) - Space Grey (Apple M1 Pro Chip / 1TB SSD /
+                            16GB RAM)</h4>
+                        <hr>
+                        <div class="d-flex">
+                            <p><strong>SKU: </strong> SF1133569600-1</p>
+                        </div>
+
+                        <div class="mb-0">
+                            <ul class="cart_btn_widget shop_single2_style align-items-center mb-0 p-0">
+                                <li class="list-inline-item me-3 mb-2 d-flex flex-row align-items-center">
+                                    <p class="me-3 quantity-text">Unidades de productos</p>
+                                    <div class="cart_btn home_page_sidebar d-grid">
+                                        <div class="quantity-block home_page_sidebar">
+                                            <button class="quantity-arrow-minus2 shop_single_page_sidebar"><img
+                                                    src="./assets/images/producto/minus.svg" alt=""></button>
+                                            <input class="quantity-num2 shop_single_page_sidebar" type="number"
+                                                value="3">
+                                            <button class="quantity-arrow-plus2 shop_single_page_sidebar"> <span
+                                                    class="flaticon-close"></span> </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="align-items-start d-flex flex-column justify-content-start mb-4 me-3">
+                                    <p class="me-3 quantity-text pb-3">Precio en cuotas</p>
+                                    <div class="d-flex flex-row">
+                                        <select class="form-select form-select-lg cuota-select me-3"
+                                            aria-label="Default select example">
+                                            <option selected>18 cuotas de Gs. 750.000</option>
+                                            <option value="1">15 cuotas de Gs. 820.000</option>
+                                            <option value="2">12 cuotas de 1.020.000</option>
+                                        </select>
+                                        <a href="#" class="btn btn-credito">Solicitar Crédito</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="align-items-start d-flex flex-column justify-content-start mb-4 me-3 pt-4">
+                                    <p class="me-3 quantity-text pb-3">Precio al contado</p>
+                                    <div class="d-flex flex-row">
+                                        <div class="flex-column">
+                                            <div class="d-flex price-info me-3">
+                                                <p class="pe-5">Antes</p>
+                                                <p class="antes">Gs. 14.230.000</p>
+                                            </div>
+                                            <div class="d-flex price-info me-3">
+                                                <p class="pe-5">Despues</p>
+                                                <h5>Gs. 9.300.000</h5>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-contado">Comprar Ahora</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-12">
+                    <hr>
+                    <div class="product-action">
+                        <ul class="list-inline ">
+                            <li class="list-inline-item pe-2">
+                                Compartir
+                            </li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item px-2">
+                                <a href="#"><span class="flaticon-heart fz16 heading-color"></span> Agregar a favoritos
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="list-inline categorias">
+                            <li class="list-inline-item"><a href="#"><span>Categorias:</span> Apple Macbook, Laptop,</a>
+                            </li>
+                            <li class="list-inline-item"><a href="#"><span>Tags:</span> apple, tecnologia, macbook</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col-xl-8">
+                    <div class="buy-suggestion">
+                        <h4 class="title">Frecuentemente se compran juntos</h4>
+                        <div class="d-block d-lg-flex align-items-center">
+                            <div class="item text-center mb-4">
+                                <img src="./assets/images/producto/freq1.png" alt="Mouse">
+                            </div>
+                            <div class="plusicon me-4 mb-4 ms-auto me-auto">
+                                <span class="flaticon-close"></span>
+                            </div>
+                            <div class="item text-center me-0 me-lg-4 mb-4">
+                                <img src="./assets/images/producto/freq2.png" alt="Keyboard">
+                            </div>
+                            <span class="price me-4 pb-0">Gs. 850.0000</span>
+                            <a class="btn btn-solid-outline" href="#">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt50">
+                <div class="col-lg-12">
+                    <div class="shop_single3_style ui_kit_tab style2">
+                        <ul class="nav nav-tabs mb15" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5 active" id="description-tab"
+                                    data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab"
+                                    aria-controls="description" aria-selected="true">Descripcion</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5" id="details-tab"
+                                    data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab"
+                                    aria-controls="details" aria-selected="false">Especificaciones</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5" id="included-tab"
+                                    data-bs-toggle="tab" data-bs-target="#included" type="button" role="tab"
+                                    aria-controls="included" aria-selected="false">Qué incluye</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5" id="garanty-tab"
+                                    data-bs-toggle="tab" data-bs-target="#garanty" type="button" role="tab"
+                                    aria-controls="garanty" aria-selected="false">Garantía</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5" id="finance-tab"
+                                    data-bs-toggle="tab" data-bs-target="#finance" type="button" role="tab"
+                                    aria-controls="finance" aria-selected="false">Financiación</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0 me-3 me-xl-5" id="faq-tab"
+                                    data-bs-toggle="tab" data-bs-target="#faq" type="button" role="tab"
+                                    aria-controls="faq" aria-selected="false">Preguntas Frecuentes</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link mt-3 mt-xl-0 mb-0" id="puntuacion-tab" data-bs-toggle="tab"
+                                    data-bs-target="#puntuacion" type="button" role="tab" aria-controls="puntuacion"
+                                    aria-selected="false">Puntuación de clientes</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4 row" id="myTabContent">
+                            <div class="tab-pane fade show active col-lg-12" id="description" role="tabpanel"
+                                aria-labelledby="description-tab">
+                                <div class="product-description-large">
+                                    <p>El primer portátil de este tipo, este Apple MacBook Pro es una bestia. Con el
+                                        ultrarrápido chip M1 Pro, el primer silicio de Apple diseñado para
+                                        profesionales, obtienes un rendimiento innovador y una increíble duración de la
+                                        batería. Agregue a eso una impresionante pantalla Liquid Retina XDR, la mejor
+                                        cámara y audio en una computadora portátil Mac y todos los puertos que necesita.
+                                    </p>
+                                    <h5 class="pt-3">Más información</h5>
+                                    <p>
+                                        Rendimiento
+                                    </p>
+                                    <ul class="list-style-type-bullet">
+                                        <li>English-language MacBook Pro</li>
+                                        <li>10-core Apple M1 Pro chip for a giant leap in CPU, GPU, and
+                                            machine learning performance</li>
+                                        <li>16GB of RAM so everything you do is fast and fluid</li>
+                                        <li>16-core Neural Engine for advanced machine learning</li>
+                                        <li>16-core GPU</li>
+                                        <li>Ultrafast 1TB solid state drive (SSD) is blazing fast, so
+                                            you can take all your photos and videos with you no matter.</li>
+                                    </ul>
+
+
+                                    <img class="img-fluid" src="./assets/images/producto/mac1.png" alt="">
+                                    <img class="img-fluid py-3" src="./assets/images/producto/mac2.png" alt="">
+                                    <img class="img-fluid py-3" src="./assets/images/producto/mac3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade col-xl-8" id="details" role="tabpanel"
+                                aria-labelledby="details-tab">
+                                <div class="shop_single_table style3 table-responsive col-md-6 ">
+                                    <table class="table table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Marca</th>
+                                                <th scope="col">Apple</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Modelo</th>
+                                                <td>MacBook Pro</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Display</th>
+                                                <td>16.2 Inches</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Color</th>
+                                                <td>Space Gray</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Disco duro</th>
+                                                <td>1 TB</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">CPU</th>
+                                                <td>Apple M1</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Memoria RAM</th>
+                                                <td>16 GB</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade col-xl-8" id="included" role="tabpanel"
+                                aria-labelledby="included-tab">
+                                3
+                            </div>
+                            <div class="tab-pane fade col-xl-12" id="garanty" role="tabpanel"
+                                aria-labelledby="garanty-tab">
+                                4
+                            </div>
+                            <div class="tab-pane fade col-xl-12" id="finance" role="tabpanel"
+                                aria-labelledby="finance-tab">
+                                5
+                            </div>
+                            <div class="tab-pane fade col-xl-12" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                                6
+                            </div>
+                            <div class="tab-pane fade col-xl-12" id="puntuacion" role="tabpanel"
+                                aria-labelledby="puntuacion-tab">
+                                7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="destacado">
+            <div class="container">
+                <div class="row">
+                    <div class="title col-xl-12 col-md-12 ">
+                        <h2>Productos relacionados</h2>
+                    </div>
+                    <div class="slick-products d-flex flex-row">
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/1.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/2.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/3.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/4.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/5.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/6.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="slide col item">
+                            <div class="shop-item">
+                                <div class="thumb pb-3">
+                                    <img src="./assets/images/home/products/7.png" class="img-fluid"
+                                        alt="Articulo 1">
+                                    <div class="thumb-info">
+                                        <ul class="mb0">
+                                            <li>
+                                                <a href="#"><span class="flaticon-heart"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-show"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="flaticon-graph"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buy-btn d-grid">
+                                        <a href="#" class="btn btn-thm1">Agregar a carrito</a>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>SONY</p>
+                                    <a href="#" class="title">Camara Sony</a>
+                                    <div class="review d-flex">
+                                        <ul class="p-0 me-1">
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="reviews"><a href="#" class="d-none d-md-block">3,014 reviews</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="newsletter bg-universo">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="suscribirse mb30-md text-center">
+                            <div class="details">
+                                <h3 class="title">Suscribite y obtené 10% de descuento en tu próxima compra.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="suscrib">
+                            <form class="mail-universo">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control"
+                                            placeholder="Ingresar dirección de e-mail">
+                                        <button class="ms-sm-2 btn-thm" type="submit">Suscribirse</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-6 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-universo">
+                            <img src="./assets/images/logo-color.png" alt="" class="img-fluid pb-3">
+                            <div class="footer-icon-box d-flex mb-4">
+                                <div class="icon"><span class="flaticon-phone-call"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">021 238 6600</h5>
+                                    <p>Lunes-Viernes: 08am-19pm</p>
+                                    <p>Sábado: 08am-15pm</p>
+                                    <p>Domingo: Cerrado</p>
+                                </div>
+                            </div>
+                            <div class="footer-icon-box d-flex">
+                                <div class="icon"><span class="flaticon-email"></span></div>
+                                <div class="details ms-4">
+                                    <h5 class="title">Necesita soporte vía e-mail?</h5>
+                                    <a href="#">info@grupouniverso.com.py</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Informaciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Nuestras marcas</a></li>
+                                <li><a href="#">Sucursales</a></li>
+                                <li><a href="#">Promociones vigentes</a></li>
+                                <li><a href="#">Bocas de cobranzas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Soporte</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Servicio Técnico</a></li>
+                                <li><a href="#">Centro de ayuda</a></li>
+                                <li><a href="#">Garantía extendida</a></li>
+                                <li><a href="#">Financiamiento</a></li>
+                                <li><a href="#">Preguntas frecuentes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer-list">
+                            <h4>Terminos y condiciones</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Politicas del sitio</a></li>
+                                <li><a href="#">Politicas de entrega</a></li>
+                                <li><a href="#">Compra sin registro</a></li>
+                                <li><a href="#">Politicas de reembolso</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+                        <div class="footer-list">
+                            <h4 class="title">Seguinos</h4>
+                            <div class="social-list">
+                                <ul class="p-0">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                                <img src="./assets/images/bancard.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <p class="my-1 text-center">© 2023 Grupo Universo | Todos los derechos reservados - Legislación
+                        aplicable por el Ministerio de Industria y Comercio
+                        (ACRAIZ), Ley 4868/2013 y el Decreto 1165/2014</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
